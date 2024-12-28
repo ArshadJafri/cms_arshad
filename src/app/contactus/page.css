@@ -1,0 +1,62 @@
+.contact_us_content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact_us_title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-form label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.contact-us-form input, .contact-us-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact_us_form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact_us_form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.contact_us_form textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.contact_info {
+    margin-top: 20px;
+    color: #555;
+}
+
+.conference_location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    height: 100%;           
+}

@@ -1,0 +1,86 @@
+.conference_management {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.conference_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea,
+select,
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.ticket_section {
+    margin-top: 20px;
+}
+
+.ticket_type_row {
+    display: flex;
+    gap: 10px;
+}
+
+.conference_list {
+    margin-top: 30px;
+}
+
+.conference_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.conference_table th,
+.conference_table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.conference_table th {
+    background-color: #f4f4f4;
+}
+
+.conference_table td button {
+    margin-right: 10px;
+}
+
+.conference_table td button:hover {
+    background-color: #dc3545;
+}

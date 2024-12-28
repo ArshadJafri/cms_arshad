@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+  
+  }
+  
+  .mentorship_container {
+    margin-top: 10px;
+    padding: 20px;
+  }
+  
+  .search_bar_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search_bar {
+    width: 700px;
+    margin-right: 10px;
+  }
+  
+  .register_button_container {
+    margin-left: 70%;
+    margin-bottom: 20px;
+  }
+  
+  .mentors_list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mentor_container {
+    margin: 0px 100px;
+  }
+  
+  .mentor_card {
+    width: 300px;
+    height: auto;
+    margin: 10px auto;
+    overflow: hidden;
+  }
+  
+  .mentor_image {
+    display: block;
+    margin: 5px auto;
+    width: 250px;
+    height: auto;
+    max-height: 250px;
+  
+  }
+  .selected_date {
+    background-color: #5ebec4 !important;
+    color: white !important;
+  }
+  .schedule_button {
+    margin-top: 10px;
+  }

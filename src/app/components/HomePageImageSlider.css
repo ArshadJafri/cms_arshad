@@ -1,0 +1,86 @@
+.slider {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.slider_content {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.conference_details {
+  color: white;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.conference_details h2 {
+  font-size: 30px;
+  margin: 5px 0;
+}
+
+.conference_details p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.button_group {
+  margin-bottom: 40px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.submit_paper,
+.register {
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit_paper:hover,
+.register:hover {
+  background-color: #0056b3;
+}
+
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 100px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.left_arrow {
+  left: 20px;
+}
+
+.right_arrow {
+  right: 30px;
+}
+
+.arrow:hover {
+  color: #f0f0f0;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}

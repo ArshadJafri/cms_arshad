@@ -1,0 +1,51 @@
+header {
+    margin-bottom: 30px;
+  }
+  
+  .submission_container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submission_title_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .submission_title {
+    margin-right: 30px;
+  }
+  
+  .submit_icon {
+    font-size: 40px;
+    margin-left: 0px;
+  }
+  
+  .submission_form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .submission_form .MuiTextField-root {
+    margin-bottom: 15px;
+  }
+  
+  .submission_form .MuiButton-root {
+    background-color: #007bff;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .submission_form .MuiButton-root:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    margin-top: 50px;
+  }

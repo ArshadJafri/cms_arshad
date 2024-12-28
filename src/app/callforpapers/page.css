@@ -1,0 +1,110 @@
+.call-for-papers-container {}
+
+.form_container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search_bar_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.search_bar {
+    width: 800px;
+    margin-right: 10px;
+}
+
+.search_button {
+    height: 56px;
+    
+}
+
+.conference_name {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.selected_conference {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.submit_paper_link {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.submit_paper_link:hover {
+    background-color: #0056b3;
+}
+
+.card_section {
+    margin: 5px auto;
+    padding: 15px;
+    max-width: 1000px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    align-self: flex-start;
+}
+
+.card_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.bullet_list {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.bullet_list li {
+    padding-left: 0px;
+}
+
+.faq_item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.faq_question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.faq_answer {
+    padding: 10px 0;
+    margin-left: 20px;
+    
+    color: #555;
+}
+
+.faq_toggle {
+    margin-left: 10px;
+    font-size: 20px;
+}

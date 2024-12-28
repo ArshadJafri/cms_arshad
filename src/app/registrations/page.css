@@ -1,0 +1,35 @@
+header {
+    margin-bottom: -10px;
+}
+
+.registration_container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.registration_title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.registration_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration_form .MuiGrid-item {
+    margin-bottom: 8px;
+}
+
+.registration_form .MuiButton-root {
+    background-color: #007bff;
+}
+
+.registration_form .MuiButton-root:hover {
+    background-color: #0056b3;
+}

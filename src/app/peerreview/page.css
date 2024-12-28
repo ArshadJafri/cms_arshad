@@ -1,0 +1,18 @@
+.peer_review_container {
+  padding: 20px;
+  margin-top: -40px;
+}
+
+.paper_details_card {
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.paper_details_card a {
+  text-decoration: none;
+  color: #1976d2;
+  /* Material UI primary color */
+}

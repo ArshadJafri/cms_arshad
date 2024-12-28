@@ -1,0 +1,61 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #007bff;
+    padding: 2px 5px;
+    display: flex;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.horizontal_menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_links a,
+.sign_out_btn {
+    color: white;
+    margin: 0 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.sign_out_btn:hover {
+    background-color: #ff4d4d;
+}
+
+.nav_links a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+.nav_links a.active {
+    background-color: #0056b3;
+    ;
+    color: white;
+    border-radius: 5px;
+}
+
+.login_btn {
+    margin-left: auto;
+}
+
+
